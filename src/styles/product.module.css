@@ -1,0 +1,26 @@
+.product_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product_title {
+    color: #082240;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-width: 200px;
+}
+
+.product_card span {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 5px 0;
+}

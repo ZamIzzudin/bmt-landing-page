@@ -1,0 +1,55 @@
+.features_container {
+    background-color: #082240;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features_title {
+    font-size: 1.8em;
+    color: white;
+    font-weight: 200;
+}
+
+.features_subtitle {
+    color: white;
+    font-size: 2.5em;
+}
+
+.features_grid {
+    display: grid;
+    grid-template-areas:
+        'satu dua'
+        'tiga empat';
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: repeat(1fr);
+    width: 80%;
+    margin-top: 30px;
+}
+
+.features_grid div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    min-height: 100px;
+}
+
+.satu {
+    grid-area: satu;
+}
+
+.dua {
+    grid-area: dua;
+}
+
+.tiga {
+    grid-area: tiga;
+}
+
+.empat {
+    grid-area: empat;
+}

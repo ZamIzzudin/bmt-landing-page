@@ -1,0 +1,26 @@
+.card_icon {
+    font-size: 2em;
+    color: #F49C45;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px !important;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card_title {
+    margin: 20px 0;
+    color: #082240;
+    font-size: 1.5em;
+}
+
+.card_subtitle {
+    font-weight: 200;
+    color: #082240;
+    font-size: 1.2em;
+}

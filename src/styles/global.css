@@ -1,0 +1,27 @@
+* {
+    font-size: 14px;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 100px;
+}
+
+ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+li {
+    list-style: none;
+    text-indent: 0;
+}
+
+.nav-link {
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #F49C45 !important;
+}

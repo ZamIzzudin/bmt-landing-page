@@ -1,0 +1,41 @@
+.navbar_wrapper {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.navbar_logo {
+    padding: 15px 60px;
+}
+
+.navbar_logo img {
+    max-height: 80px;
+}
+
+.navbar_item {
+    gap: 90px;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.navbar_button {
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_button button {
+    font-size: 1.3em;
+    background-color: #F49C45;
+    border: 2px solid #F49C45;
+    color: white;
+    padding: 10px 70px;
+    transition: .3s;
+}
+
+.navbar_button button:hover {
+    background-color: transparent;
+    border: 2px solid #F49C45;
+    color: #F49C45;
+}
