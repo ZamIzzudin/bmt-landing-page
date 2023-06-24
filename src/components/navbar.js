@@ -34,7 +34,11 @@ function Navbars() {
                                 <Nav.Link href="#footer">Kontak</Nav.Link>
                             </Nav>
                             <div className={`${style.navbar_button} d-flex`}>
-                                <Button variant="outline-success">Login</Button>
+                                <Button variant="outline-success">
+                                    <a href="https://bmt-web.netlify.app/" target="_blank">
+                                        Login
+                                    </a>
+                                </Button>
                             </div>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
