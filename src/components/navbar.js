@@ -35,7 +35,7 @@ function Navbars() {
                             </Nav>
                             <div className={`${style.navbar_button} d-flex`}>
                                 <Button variant="outline-success">
-                                    <a href="https://bmt-web.netlify.app/" target="_blank">
+                                    <a href="https://bmt-web.netlify.app/" target="_blank" rel="noreferrer">
                                         Login
                                     </a>
                                 </Button>
