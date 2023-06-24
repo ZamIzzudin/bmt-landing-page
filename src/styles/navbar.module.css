@@ -39,3 +39,9 @@
     border: 2px solid #F49C45;
     color: #F49C45;
 }
+
+.navbar_button Button a{
+    color: white;
+    text-decoration:none;
+    font-size: 1.3em;
+}
